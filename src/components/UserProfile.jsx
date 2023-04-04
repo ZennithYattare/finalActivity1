@@ -4,7 +4,7 @@ import React from "react";
 
 function UserProfile(props) {
 	const { name, age } = props;
-	
+
 	const Verification = () => {
 		if (age >= 18) {
 			return `Name: ${name} Age: ${age}`;
@@ -17,12 +17,12 @@ function UserProfile(props) {
 
 	return (
 		<div>
-			{/* <Verification /> */}
-			{age >= 18
+			<Verification />
+			{/* {age >= 18
 				? `Name: ${name} Age: ${age}`
 				: !name || !age
 				? "Please enter your name and age"
-				: `Name: ${name}, You are not allowed to see this page`}
+				: `Name: ${name}, You are not allowed to see this page`} */}
 		</div>
 	);
 }
