@@ -7,7 +7,7 @@ import UserProfile from "./components/UserProfile";
 function App() {
 	const [name, setName] = useState("");
 	const [age, setAge] = useState("");
-	console.log(name);
+
 	return (
 		<div className="App">
 			<form>
