@@ -40,37 +40,6 @@ function App() {
 	const [count, setCount] = useState(0);
 
 	return (
-		// <div className="App">
-		// 	<form>
-		// 		<label>
-		// 			Name:
-		// 			<input
-		// 				type="text"
-		// 				name="name"
-		// 				className="border-2 border-black"
-		// 			/>
-		// 		</label>
-		// 		<label>
-		// 			Age:
-		// 			<input
-		// 				type="text"
-		// 				name="age"
-		// 				className="border-2 border-black"
-		// 			/>
-		// 		</label>
-		// 		<input
-		// 			type="submit"
-		// 			value="Submit"
-		// 			onClick={(e) => {
-		// 				e.preventDefault();
-		// 				setName(document.getElementsByName("name")[0].value);
-		// 				setAge(document.getElementsByName("age")[0].value);
-		// 			}}
-		// 		/>
-		// 	</form>
-		// 	{/* pass to UserProfile name and age of the user inputs */}
-		// 	<UserProfile name={name} age={age} />
-		// </div>
 		<div className="App flex h-screen w-screen place-items-center bg-[#55aaaa]">
 			<div className="mx-1 w-[600px] min-w-[420px] max-w-xl border-4 border-b-[#808080] border-l-slate-200 border-r-[#808080] border-t-slate-200 bg-[#c0c0c0] shadow-[5px_5px_5px_black] sm:mx-auto">
 				<div className="bg-gradient-to-r from-[#000281] to-[#1084d0] p-1 font-mono text-lg font-bold text-gray-50 transition duration-700 ease-in-out">
