@@ -7,11 +7,11 @@ function UserProfile(props) {
 
 	const Verification = () => {
 		if (age >= 18) {
-			return `Name: ${name} Age: ${age}`;
+			return `Name: ${name}, Age: ${age}`;
 		} else if (!name || !age) {
-			return "Please enter your name and age";
+			return "Please enter your name and age.";
 		} else {
-			return `Name: ${name}, You are not allowed to see this page`;
+			return `Name: ${name}, you are not allowed to see this page.`;
 		}
 	};
 
